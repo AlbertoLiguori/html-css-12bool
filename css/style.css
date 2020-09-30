@@ -3,3 +3,35 @@
   padding:0;
   box-sizing:border-box;
 }
+
+.container{
+  height:195px;
+}
+
+[class*="col-"]{
+  height:100%;
+  text-align: center;
+  /* line-height: 195px; */
+  background-color: #FFC0CB;
+  position:relative;
+}
+
+.bg-coral{
+  background-color: #DF7677;
+}
+
+.container:nth-of-type(5) div{
+  padding:10px;
+}
+.container:nth-of-type(5) div div{
+    background-color: #DF7677;
+    border:1px solid white;
+    /* line-height: 175px; */
+}
+
+span{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%)
+}
